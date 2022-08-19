@@ -1,0 +1,1457 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&family=Poppins:wght@200;300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700&display=swap');
+
+$color-base: #00a0d5;
+$color-base-secundary: #008ebd;
+$blue-darkest: #1A2025;
+$--gray-1: #212529;
+$--gray-2: #495057;
+$--gray-3: #868E96;
+$--gray-4: #e9ecef;
+$--gray-5: #f8f9fa;
+$--white: #FFF;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    background-color: black;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.logo {
+    width: 125px;
+    height: 100px;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    margin: 0 15px;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: $color-base;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.header .navfire {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.header .navfire {
+    color: $color-base;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Mukta', sans-serif;
+    color: $color-base;
+}
+
+.header .navfire .bxs-hot {
+    font-size: 20px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+
+//================  MAIN
+
+
+.main .container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #1a2025;
+}
+
+.main .init-main {
+    padding-top: 250px;
+    max-width: 550px;
+    height: auto;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.main .init-main .icon-home {
+    color: $color-base;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.main .init-main h1 {
+    font-size: 50px;
+    color: white;
+    line-height: 62px;
+}
+
+.main .init-main p {
+    margin-top: 20px;
+    max-width: 500px;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.main .init-main p span {
+    text-transform: uppercase;
+    font-size: 14.5px;
+    font-weight: 600;
+}
+
+
+.main .init-main .button {
+    width: 250px;
+    background-color: #07af69;
+    padding: 20px 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.main .init-main .button i {
+    font-size: 20px;
+}
+
+.main .container .box {
+    width: 50%;
+    height: auto;
+}
+
+.main .container .box .box-home {
+    display: flex;
+}
+
+.main .container .box .box-home .img-home {
+    width: 90%;
+    height: 425px;
+    background-image: url(../imagens/kenny-eliason-Wp7t4cWN-68-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 180px;
+    margin-right: -10px;
+    z-index: 2;
+}
+
+.main .container .box .box-blue {
+    width: 70px;
+    height: 450px;
+    background-color: $color-base;
+    z-index: 1;
+}
+
+//================  MAIN - SECTION
+
+
+.section {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-top: 10px solid $color-base;
+    padding: 100px 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+.section .quem-somos {
+    width: 70%;
+    height: auto;
+    display: block;
+
+}
+
+.section .quem-somos .icon-home {
+    color: $color-base;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.section .quem-somos .icon-home img {
+    width: 30px;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+.section .quem-somos h2 {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.section .quem-somos .box {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    margin: 50px 0 0 0;
+}
+
+.section .quem-somos .box i {
+    font-size: 25px;
+    margin-right: 20px;
+    color: $color-base;
+}
+
+.section .quem-somos .box p {
+    line-height: 28px;
+    color: #696f72;
+}
+
+.section .box-orcamento {
+    width: 400px;
+    height: 450px;
+    background-color: #00a0d527;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 80px 40px 20px 40px;
+    text-align: center;
+}
+
+.section .box-orcamento img {
+    width: 30px;
+    height: 30px;
+}
+
+.section .box-orcamento h4 {
+    font-size: 28px;
+    padding: 20px 0;
+}
+
+.section .box-orcamento h4 span {
+    color: #00a0d5;
+}
+
+.section .box-orcamento p {
+    color: #696f72;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.section .box-orcamento .button {
+    width: 280px;
+    background-color: #07af69;
+    padding: 20px 20px;
+    color: white;
+    font-weight: 500;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+//================  MAIN - SECTION1
+
+.section1 {
+    width: 100%;
+    height: auto;
+    background-color: #1a2025;
+    padding: 100px 40px;
+}
+
+.section1 h2 {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.section1 h2 span {
+    color: $color-base;
+}
+
+.section1 .box-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section1 .box-flex .box-card {
+    width: 290px;
+    height: 400px;
+    border: 1px solid gray;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    padding-top: 100px;
+    transition: .3s;
+}
+
+
+
+.section1 .box-flex .box-card h4 {
+    color: $color-base;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section1 .box-flex .box-card p {
+    font-size: 12px;
+    padding: 0 20px;
+    line-height: 22.5px;
+}
+
+.section1 .box-flex .card-orca {
+    width: 290px;
+    height: 400px;
+    background-color: $color-base-secundary;
+    color: white;
+    text-align: center;
+    padding: 0 40px;
+    padding-top: 100px;
+    transition: .5s;
+}
+
+.section1 .box-flex .card-orca h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section1 .box-flex .card-orca p {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.section1 .box-flex .card-orca .button {
+    border: 1px solid white;
+    display: flex;
+    padding: 20px 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    color: white;
+    font-weight: 500;
+    font-size: 12.5px;
+    transition: .5s;
+}
+
+.section1 .box-flex .card-orca .button:hover {
+    background-color: white;
+    color: $color-base;
+}
+
+//================  MAIN - SECTION1 - line
+
+.section1 .line {
+    width: 100%;
+    height: .8px;
+    margin: 150px 0 100px 0;
+    background-color: $--gray-3;
+}
+
+.section1 .section-slide h2 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: -20px;
+}
+
+.section1 .section-slide h2 span {
+    color: $color-base;
+}
+
+.container-slider {
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.container-slider-single {
+    width: 350px;
+    height: 350px;
+}
+
+.container-slider-single {
+    float: left;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.slick-slide {
+    margin-left: 27px;
+
+}
+
+/* the parent */
+.slick-list {
+    margin-left: -27px;
+}
+
+/****SLICK SLIDER****/
+
+
+.slick-dotted ul {
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.slick-dotted li {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.slick-dotted button:focus {
+    outline: 0;
+}
+
+.slick-dotted li button {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    color: #d8d8d8;
+    border-width: 0;
+    background: #d8d8d8;
+    opacity: 1;
+    cursor: pointer;
+}
+
+li.slick-active button {
+    background: #373855;
+    color: #373855;
+}
+
+.slick-slide:focus {
+    outline: none;
+}
+
+.section1 .slide-button {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.section1 .slide-button .button {
+    background-color: #008ebd;
+    padding: 20px 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 13.5px;
+}
+
+
+//================  section1 final 
+
+.main .section2 {
+    width: 100%;
+    height: auto;
+    background-color: #0088b5;
+    display: flex;
+}
+
+.main .section2 .box-diferenciais {
+    padding: 100px 20px 0 40px;
+    width: 60%;
+    height: auto;
+    color: white;
+}
+
+.main .section2 .box-diferenciais h2 {
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.main .section2 .box-diferenciais p {
+    font-size: 14.5px;
+    padding-bottom: 20px;
+}
+
+.main .section2 .box-diferenciais .box-check {
+    margin: 40px 0;
+    align-items: center;
+    display: flex;
+}
+
+.main .section2 .box-diferenciais .box-check i {
+    padding-right: 20px;
+    font-size: 25px;
+    align-items: center;
+}
+
+.main .section2 .box-diferenciais .button {
+    background-color: #07af69;
+    padding: 20px 40px;
+    color: white;
+    font-weight: 500;
+    border: 0;
+    cursor: pointer;
+}
+
+.main .section2 .box-img {
+    width: 40%;
+    height: auto;
+}
+
+.main .section2 .box-img img {
+    width: 100%;
+    height: 400px;
+    float: right;
+    padding-left: 20px;
+}
+
+//================  FINAL SECTION 2
+
+//================  INIT SECTION 3
+
+.section3 {
+    width: 100%;
+    height: auto;
+    padding: 100px 40px;
+    display: flex;
+}
+
+.section3 .box-perguntas {
+    width: 50%;
+    height: auto;
+}
+
+.box-perguntas .box-icon-house {
+    display: flex;
+    align-items: center;
+}
+
+.box-perguntas .box-icon-house img {
+    width: 30px;
+}
+
+.box-perguntas .box-icon-house span {
+    color: #00a0d5;
+}
+
+.box-perguntas h2 {
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.section3 .box-perguntas .box-contato .icon-contato-single {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    color: #495058;
+}
+
+.section3 .box-perguntas .box-contato .icon-contato-single i {
+    color: #00a0d5;
+    font-size: 30px;
+    padding-right: 25px;
+}
+
+.section3 .box-perguntas .box-contato .icon-contato-single p {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+}
+
+.section3 .box-perguntas .box-contato .icon-contato-single a {
+    color: #495058;
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section3 .box-perguntas-single {
+    width: 50%;
+    height: auto;
+}
+
+.section3 .box-perguntas-single .box-cards-perguntas {
+    border: 1.5px solid rgb(206, 206, 206);
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.section3 .box-perguntas-single .cards-single {
+    padding: 30px 20px;
+}
+
+.section3 .box-perguntas-single .cards-single h3 {
+    color: #495058;
+    font-size: 16px;
+}
+
+.section3 .box-perguntas-single .cards-single p {
+    color: #495058;
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+    transition: 1s;
+}
+
+.section3 .box-perguntas-single a {
+    float: right;
+    color: #00a0d5;
+    font-size: 14.5px;
+}
+
+.section3 .box-perguntas-single a span {
+    font-weight: 600;
+}
+
+//================  FINAL SECTION 3 
+
+
+//================  INIT SECTION 4
+
+.section4 {
+    width: 100%;
+    height: auto;
+}
+
+.section4 .background-orca {
+    width: 100%;
+    height: auto;
+    background-image: url(../imagens/kenny-eliason-mGZX2MOPR-s-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.background-orca .background-opacity {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 100px 40px;
+}
+
+.background-opacity .box-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-flex .left-orca {
+    width: 50%;
+    height: auto;
+}
+
+.left-orca img {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    background-color: #008ebd;
+}
+
+.left-orca h3 {
+    width: 85%;
+    font-size: 40px;
+    color: white;
+    margin: 50px 0 30px 0;
+}
+
+.left-orca h3 span {
+    color: #008ebd;
+}
+
+.left-orca p {
+    width: 85%;
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.left-orca p span {
+    font-weight: 600;
+}
+
+.left-orca h4 {
+    color: white;
+    font-weight: 600;
+}
+
+.left-orca .flex-icons i {
+    color: #008ebd;
+    font-size: 28px;
+    margin: 30px 10px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.section4 .right-orca {
+    width: 50%;
+    height: auto;
+}
+
+.section4 .right-orca form {
+    background-color: white;
+    padding: 50px;
+}
+
+.right-orca form span {
+    font-size: 15px;
+    color: #008ebd;
+}
+
+.right-orca form h3 {
+    font-size: 25px;
+    margin: 20px 0 30px 0;
+}
+
+.right-orca form fieldset {
+    border: none;
+    margin: 20px 0;
+}
+
+.right-orca form fieldset label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.right-orca form fieldset input {
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(244, 244, 244);
+}
+
+.right-orca form fieldset textarea {
+    width: 100%;
+    height: 120px;
+    border: none;
+    background-color: rgb(244, 244, 244);
+    padding: 5px 10px;
+    resize: vertical;
+}
+
+.right-orca form button {
+    width: 100%;
+    padding: 20px;
+    background-color: #07af69;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+
+//================  FINAL SECTION 4
+
+//================  FOOTER 
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #212529;
+    padding: 20px 50px;
+    text-align: center;
+    display: none;
+}
+
+footer img {
+    width: 130px;
+    height: 130px;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    align-items: center;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer li a {
+    color: white;
+    margin: 0 auto;
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    transition: .3s;
+    padding: 10px;
+}
+
+footer li a:hover {
+    color: $color-base;
+}
+
+footer ul .navfire {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 16px;
+    color: $color-base;
+    font-weight: 500;
+    font-family: 'Mukta', sans-serif;
+}
+
+footer ul .navfire .bxs-hot {
+    font-size: 20px;
+}
+
+footer .line {
+    width: 100%;
+    height: .5px;
+    background-color: rgba(163, 163, 163, 0.38);
+    margin: 50px auto 50px auto;
+}
+
+footer .footer-pj {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-pj p {
+    text-align: left;
+    color: rgba(175, 175, 175, 0.468);
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif;
+}
+
+footer .footer-pj .fast-top a .ceta {
+    color: $color-base;
+    font-size: 25px;
+    padding-right: 5px;
+}
+
+footer .footer-pj .fast-top a {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: rgba(175, 175, 175, 0.587);
+    font-family: 'Mukta', sans-serif;
+}
+
+
+//================  RESPONSIVO 
+
+@media screen and (max-width:1152px) {
+
+    .main .init-main {
+        padding-top: 200px;
+    }
+
+    .main .container .box .box-home .img-home {
+        width: 425px;
+        height: 425px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:1004px) {
+    .main .init-main h1 {
+        font-size: 45px;
+    }
+
+    .main .init-main p {
+        font-size: 1rem;
+    }
+
+    .main .init-main p span {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .main .init-main .button {
+        background-color: #07af69;
+        padding: 20px 20px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        border: 0;
+        color: white;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+
+    }
+}
+
+@media (max-width: 1002px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        flex-direction: row-reverse;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 19vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: black;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
+
+.nav-list.active {
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .header {
+        padding: 5px 20px;
+    }
+
+    .navbar a {
+        font-size: 14.5px;
+    }
+
+    .header .navfire {
+        margin-left: 10px;
+    }
+
+    .section .quem-somos h2 {
+        font-size: 37px;
+        line-height: 52px;
+    }
+
+    .section .quem-somos .box {
+        width: 100%;
+    }
+
+    .section .quem-somos .box i {
+        font-size: 25px;
+        margin-right: 20px;
+        color: $color-base;
+    }
+
+    .section .quem-somos .box p {
+        font-size: 14px;
+        line-height: 28px;
+        color: #696f72;
+    }
+
+
+
+}
+
+@media screen and (max-width:950px) {
+
+    .main .init-main {
+        margin-right: 20px;
+    }
+
+    .main .init-main h1 {
+        font-size: 40px;
+    }
+
+    .main .init-main p {
+        font-size: .900rem;
+    }
+
+    .main .init-main p span {
+        text-transform: uppercase;
+        font-size: 13.5px;
+        font-weight: 600;
+    }
+
+
+    .section .box-orcamento h4 {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .section .box-orcamento p {
+        color: #696f72;
+        font-size: 13.8px;
+        margin-bottom: 40px;
+    }
+
+    .section .box-orcamento .button {
+        background-color: #07af69;
+        padding: 20px 20px;
+        color: white;
+        font-weight: 500;
+        align-items: center;
+        font-size: 13.5px;
+    }
+
+}
+
+@media screen and (max-width:920px) {
+    .navbar a {
+        font-size: 14.5px;
+    }
+
+    .header .navfire {
+        margin-left: 0;
+    }
+
+    .header .navfire {
+        font-size: 14.5px;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    ul {
+        display: none;
+    }
+
+    .header .navfire {
+        font-size: 25px;
+    }
+
+    .header .navfire {
+        font-size: 15.5px;
+    }
+
+    .main .init-main {
+        padding-top: 170px;
+    }
+
+    .main .init-main h1 {
+        font-size: 37px;
+    }
+
+    .main .init-main p {
+        font-size: .900rem;
+    }
+
+    .main .init-main p span {
+        text-transform: uppercase;
+        font-size: 13.5px;
+        font-weight: 600;
+    }
+
+    .main .container .box .box-home .img-home {
+        width: 400px;
+        height: 380px;
+    }
+
+    .section .quem-somos .icon-home {
+        font-size: 14.5px;
+
+    }
+
+
+    .section .quem-somos h2 {
+        font-size: 35px;
+        line-height: 52px;
+    }
+
+}
+
+@media screen and (max-width:852px) {
+    .section .box-orcamento {
+        margin-top: 40px;
+        margin-left: 20px;
+        padding: 80px 40px 20px 40px;
+    }
+}
+
+@media screen and (max-width:822px) {
+    .section .quem-somos h2 {
+        font-size: 32.5px;
+        line-height: 50px;
+    }
+
+    .section .quem-somos .box i {
+        font-size: 20.5px;
+    }
+
+    .section .quem-somos .box p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+
+    .section .quem-somos h2 {
+        font-size: 31px;
+        line-height: 50px;
+    }
+
+    .section .quem-somos .box i {
+        font-size: 20.5px;
+    }
+
+    .section .quem-somos .box p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+
+    .section .box-orcamento h4 {
+        font-size: 22px;
+        padding: 20px 0;
+    }
+
+    .section .box-orcamento p {
+        color: #696f72;
+        font-size: 13.5px;
+        margin-bottom: 40px;
+    }
+
+    .section .box-orcamento .button {
+        background-color: #07af69;
+        padding: 20px 20px;
+        color: white;
+        font-weight: 500;
+        align-items: center;
+        font-size: 13.250px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .section {
+        padding: 100px 40px;
+        display: block;
+        align-items: center;
+    }
+
+    .section .quem-somos {
+        width: 100%;
+    }
+
+    .section .quem-somos h2 {
+        font-size: 33px;
+        line-height: 50px;
+    }
+
+
+    .section .quem-somos .box {
+        width: 100%;
+        margin: 50px 0 0 0;
+    }
+
+
+    .section .quem-somos .box i {
+        font-size: 25px;
+    }
+
+    .section .quem-somos .box p {
+        font-size: 13.5px;
+        line-height: 24px;
+    }
+
+
+    .section .box-orcamento {
+        width: 400px;
+        height: 450px;
+        background-color: #00a0d527;
+        margin: 40px 0 0 0;
+        padding: 80px 40px 20px 40px;
+        text-align: center;
+    }
+
+
+    .section .box-orcamento h4 {
+        font-size: 30px;
+        padding: 20px 0;
+    }
+
+    .section .box-orcamento p {
+        color: #696f72;
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .section .box-orcamento .button {
+        font-size: 14px;
+    }
+
+}
+
+
+@media screen and (max-width:750px) {
+
+    .main .container {
+        display: block;
+    }
+
+    .main .init-main {
+        text-align: center;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main .init-main .icon-home {
+        color: $color-base;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .main .init-main p {
+        margin: 20px auto;
+    }
+
+    .main .init-main .button {
+        margin: 40px auto 50px auto;
+    }
+
+    .main .container .box {
+        width: 100%;
+        height: auto;
+        padding: 0 20px;
+    }
+
+    .main .container .box .box-home .img-home {
+        width: 100%;
+        height: 350px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .main .container .box .box-blue {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .main .container .box .box-home .img-home {
+        height: 300px;
+    }
+
+    .section {
+        padding: 100px 20px 10px 20px;
+        text-align: center;
+    }
+
+    .section .quem-somos .icon-home {
+        font-size: 13px;
+    }
+
+    .section .quem-somos h2 {
+        font-size: 31px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+
+
+    .section .quem-somos .box {
+        width: 100%;
+        margin: 25px 0 0 0;
+    }
+
+
+    .section .quem-somos .box i {
+        font-size: 22.5px;
+    }
+
+    .section .quem-somos .box p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .section .box-orcamento {
+        width: 100%;
+        height: auto;
+        background-color: #00a0d527;
+        margin: 40px 0;
+        padding: 40px;
+        text-align: center;
+    }
+
+    .section .box-orcamento h4 {
+        font-size: 28px;
+        padding: 20px 0;
+    }
+
+    .section .box-orcamento p {
+        color: #696f72;
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .section .box-orcamento .button {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width:476px){
+    .section .quem-somos .icon-home {
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .section .quem-somos .icon-home img{
+        width: 25px;
+    }
+
+    .section .quem-somos h2 {
+        font-size: 27px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+
+    .section .quem-somos .box i {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .section .box-orcamento h4 {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .section .box-orcamento p {
+        color: #696f72;
+        font-size: 13px;
+        margin-bottom: 40px;
+    }
+
+    .section .box-orcamento .button {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:400px){
+    
+    .main .init-main .icon-home {
+        font-size: 12px;
+    }
+
+    .main .init-main .icon-home img {
+        font-size: 25px;
+    }
+
+    .main .init-main h1 {
+        font-size: 32.5px;
+        line-height: 45px;
+    }
+
+    .main .init-main p {
+        margin: 20px auto;
+        font-size: 12px;
+    }
+
+    .main .init-main p span{
+        margin: 20px auto;
+        font-size: 10px;
+    }
+
+    .main .init-main .button {
+        width: 220px;
+        font-size: 12px;
+    }
+    
+
+    .main .container .box {
+        width: 100%;
+        height: auto;
+        padding: 0 20px;
+    }
+
+    .section .quem-somos h2 {
+        font-size: 22.5px;
+    }
+
+    .section .quem-somos .box p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .section .box-orcamento h4 {
+        font-size: 22px;
+        padding: 20px 0;
+    }
+
+    .section .box-orcamento p {
+        font-size: 12px;
+    }
+
+}
