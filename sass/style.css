@@ -1315,6 +1315,7 @@ footer .footer-pj .fast-top a {
   }
   .section1 .section-slide h2 {
     font-size: 30px;
+    text-align: left;
   }
 }
 
@@ -1492,6 +1493,12 @@ footer .footer-pj .fast-top a {
   }
   .section1 .section-slide h2 {
     font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .section1 .section-slide h2 {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */

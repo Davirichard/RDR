@@ -8,7 +8,6 @@
 .container-slider-single {
     width: 350px;
     height: 350px;
-    background-color: purple;
 }
 
 .container-slider-single {
@@ -89,6 +88,10 @@ li.slick-active button {
 
 @media screen and (max-width:500px){
 
+    .section1 {
+        padding: 100px 20px 100px 20px;
+    }
+
     .container-slider-single {
         width: 100%;
         padding: 0;
@@ -108,6 +111,7 @@ li.slick-active button {
         font-size: 13px;
         display: flex;
         justify-content: center;
+        margin-bottom: 0;
     }
     
 }
