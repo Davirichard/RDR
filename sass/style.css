@@ -415,88 +415,6 @@
   color: #00a0d5;
 }
 
-.container-slider {
-  max-width: 1200px;
-  overflow: hidden;
-  padding: 40px 0;
-}
-
-.container-slider-single {
-  width: 350px;
-  height: 350px;
-}
-
-.container-slider-single {
-  float: left;
-  padding: 15px;
-  border-radius: 10px;
-}
-
-.slick-slide {
-  margin-left: 27px;
-}
-
-/* the parent */
-.slick-list {
-  margin-left: -27px;
-}
-
-/****SLICK SLIDER****/
-.slick-dotted ul {
-  display: block;
-  list-style-type: none;
-  text-align: center;
-  position: relative;
-  top: 30px;
-}
-
-.slick-dotted li {
-  display: inline-block;
-  margin: 0 7px;
-}
-
-.slick-dotted button:focus {
-  outline: 0;
-}
-
-.slick-dotted li button {
-  width: 16px;
-  height: 16px;
-  border-radius: 8px;
-  color: #d8d8d8;
-  border-width: 0;
-  background: #d8d8d8;
-  opacity: 1;
-  cursor: pointer;
-}
-
-li.slick-active button {
-  background: #373855;
-  color: #373855;
-}
-
-.slick-slide:focus {
-  outline: none;
-}
-
-.section1 .slide-button {
-  margin-top: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.section1 .slide-button .button {
-  background-color: #008ebd;
-  padding: 20px 20px;
-  margin-top: 30px;
-  margin-bottom: 100px;
-  border: 0;
-  color: white;
-  font-weight: 500;
-  font-size: 13.5px;
-}
-
 .main .section2 {
   width: 100%;
   height: auto;
@@ -1183,6 +1101,12 @@ footer .footer-pj .fast-top a {
     font-size: 35px;
     line-height: 52px;
   }
+  .section1 .section-slide h2 {
+    font-size: 38px;
+  }
+  .section1 .section-slide h2 br {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 852px) {
@@ -1286,6 +1210,9 @@ footer .footer-pj .fast-top a {
   .section .box-orcamento .button {
     font-size: 14px;
   }
+  .section1 .section-slide h2 {
+    font-size: 34px;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -1377,10 +1304,16 @@ footer .footer-pj .fast-top a {
   .section1 h2 br {
     display: none;
   }
+  .section1 .section-slide h2 {
+    font-size: 35px;
+  }
 }
 
 @media screen and (max-width: 580px) {
   .section1 h2 {
+    font-size: 30px;
+  }
+  .section1 .section-slide h2 {
     font-size: 30px;
   }
 }
@@ -1434,6 +1367,9 @@ footer .footer-pj .fast-top a {
   }
   .section .box-orcamento .button {
     font-size: 14px;
+  }
+  .section1 {
+    padding: 100px 20px;
   }
   .section1 .box-flex .box-card {
     width: 100%;
@@ -1504,6 +1440,9 @@ footer .footer-pj .fast-top a {
   .section1 .box-flex .card-orca p {
     font-size: 11.5px;
   }
+  .section1 .section-slide h2 {
+    font-size: 28px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -1549,6 +1488,9 @@ footer .footer-pj .fast-top a {
     font-size: 12px;
   }
   .section1 h2 {
+    font-size: 25px;
+  }
+  .section1 .section-slide h2 {
     font-size: 25px;
   }
 }
