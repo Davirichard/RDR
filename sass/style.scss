@@ -609,9 +609,10 @@ li.slick-active button {
 
 .section3 .box-perguntas .box-contato .icon-contato-single {
     display: flex;
-    align-items: center;
     margin: 30px 0;
-    color: #495058;
+    color:#495057;
+    align-items: center;
+    padding-right: 40px;
 }
 
 .section3 .box-perguntas .box-contato .icon-contato-single i {
@@ -625,6 +626,7 @@ li.slick-active button {
     font-size: 18px;
     font-family: 'Mukta', sans-serif;
     font-weight: 500;
+    color:#919499;
 }
 
 .section3 .box-perguntas .box-contato .icon-contato-single a {
@@ -640,18 +642,18 @@ li.slick-active button {
 }
 
 .section3 .box-perguntas-single .box-cards-perguntas {
-    border: 1.5px solid rgb(206, 206, 206);
+    border: 1px solid rgb(206, 206, 206);
     cursor: pointer;
-    margin: 20px 0;
 }
 
 .section3 .box-perguntas-single .cards-single {
-    padding: 30px 20px;
+    padding: 40px 20px;
 }
 
 .section3 .box-perguntas-single .cards-single h3 {
     color: #495058;
     font-size: 16px;
+    font-weight: 600;
 }
 
 .section3 .box-perguntas-single .cards-single p {
@@ -668,6 +670,8 @@ li.slick-active button {
     float: right;
     color: #00a0d5;
     font-size: 14.5px;
+    margin-top: 20px;
+    font-family: 'Mukta', sans-serif;
 }
 
 .section3 .box-perguntas-single a span {
@@ -927,6 +931,20 @@ footer .footer-pj .fast-top a {
 }
 
 
+.box-perguntas .box-icon-house img {
+    width: 25px;
+}
+
+.box-perguntas .box-icon-house span {
+    color: #00a0d5;
+    font-size: 14px;
+}
+
+.box-perguntas h2 {
+    font-size: 38px;
+    padding: 10px 20px 10px 0;
+}
+
 }
 
 @media screen and (max-width:1080px){
@@ -995,7 +1013,7 @@ footer .footer-pj .fast-top a {
 
     .nav-list {
         position: absolute;
-        top: 19vh;
+        top: 18.8vh;
         right: 0;
         width: 50vw;
         height: 92vh;
@@ -1082,6 +1100,19 @@ footer .footer-pj .fast-top a {
     }
 
 
+    .box-perguntas h2 {
+        font-size: 34.5px;
+        padding: 10px 20px 10px 0;
+    }
+
+    
+.section3 .box-perguntas-single .cards-single h3 {
+    font-size: 15.5px;
+}
+
+.section3 .box-perguntas-single .cards-single p {
+    font-size: 14.5px;
+}
 
 }
 
@@ -1252,6 +1283,26 @@ footer .footer-pj .fast-top a {
         margin-left: 20px;
         padding: 80px 40px 20px 40px;
     }
+
+    
+.section3 .box-perguntas .box-contato .icon-contato-single i {
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.section3 .box-perguntas .box-contato .icon-contato-single p {
+    font-size: 15px;
+}
+
+   
+.section3 .box-perguntas-single .cards-single h3 {
+    font-size: 15px;
+}
+
+.section3 .box-perguntas-single .cards-single p {
+    font-size: 13px;
+}
+
 }
 
 @media screen and (max-width:822px) {
@@ -1333,6 +1384,24 @@ footer .footer-pj .fast-top a {
     .main .section2 .opacity .box-img {
         display: none;
     }
+
+    
+.box-perguntas .box-icon-house span {
+    font-size: 13px;
+}
+
+.box-perguntas h2 {
+    padding: 10px 0 10px 0;
+}
+
+  
+.section3 .box-perguntas-single .cards-single h3 {
+    font-size: 15px;
+}
+
+.section3 .box-perguntas-single .cards-single p {
+    font-size: 14.5px;
+}
 }
 
 @media screen and (max-width:768px) {
@@ -1467,6 +1536,33 @@ footer .footer-pj .fast-top a {
 
 .section1 .box-flex .card-orca .button {
     font-size: 11px;
+}
+
+.section3 {
+    width: 100%;
+    height: auto;
+    padding: 100px 40px;
+    display: block;
+}
+
+.section3 .box-perguntas {
+    width: 100%;
+    height: auto;
+}
+
+
+.section3 .box-perguntas-single {
+    width: 100%;
+    height: auto;
+}
+
+
+.section3 .box-perguntas .box-contato .icon-contato-single p {
+    font-size: 14.5px;
+}
+
+.section3 .box-perguntas .box-contato .icon-contato-single a {
+    font-size: 14.5px;
 }
 
 }
@@ -1654,14 +1750,17 @@ footer .footer-pj .fast-top a {
 }
 
 
-
 .section2 .opacity .box-diferenciais {
-    padding: 100px 20px 20px 20px;
+    padding: 100px 20px 50px 20px;
+}
+
+.section3{
+    padding: 100px 20px;
+}
+
 }
 
 
-
-}
 
 @media screen and (max-width:476px){
     .section .quem-somos .icon-home {
@@ -1725,6 +1824,23 @@ footer .footer-pj .fast-top a {
 
 .main .section2 .opacity  .box-diferenciais h2 {
     font-size: 28px;
+}
+
+.box-perguntas h2 {
+    font-size: 28px;
+}
+
+
+.section3 .box-perguntas-single .cards-single h3 {
+    font-size: 12px;
+}
+
+.section3 .box-perguntas-single .cards-single p {
+    font-size: 11.5px;
+}
+
+.section3 .box-perguntas-single a {
+    font-size: 12px;
 }
 
 }
@@ -1821,6 +1937,10 @@ footer .footer-pj .fast-top a {
 
 .main .section2 .opacity .box-diferenciais .button {
     font-size: 11.5px;
+}
+
+.box-perguntas h2 {
+    font-size: 25px;
 }
 
 
