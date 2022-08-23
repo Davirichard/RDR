@@ -746,18 +746,18 @@ li.slick-active button {
 .left-orca img {
   width: 80px;
   height: 80px;
-  padding: 10px;
+  padding: 20px;
   background-color: #008ebd;
 }
 
-.left-orca h3 {
+.left-orca h2 {
   width: 85%;
   font-size: 40px;
   color: white;
   margin: 50px 0 30px 0;
 }
 
-.left-orca h3 span {
+.left-orca h2 span {
   color: #008ebd;
 }
 
@@ -767,6 +767,7 @@ li.slick-active button {
   font-size: 14px;
   line-height: 25px;
   margin-bottom: 50px;
+  font-family: 'Mukta', sans-serif;
 }
 
 .left-orca p span {
@@ -801,6 +802,7 @@ li.slick-active button {
 .right-orca form span {
   font-size: 15px;
   color: #008ebd;
+  font-family: 'Mukta', sans-serif;
 }
 
 .right-orca form h3 {
@@ -817,6 +819,7 @@ li.slick-active button {
   display: block;
   font-size: 14px;
   margin-bottom: 10px;
+  font-family: 'Mukta', sans-serif;
 }
 
 .right-orca form fieldset input {
@@ -845,13 +848,14 @@ li.slick-active button {
   cursor: pointer;
   color: white;
   font-weight: 500;
+  font-family: 'Mukta', sans-serif;
 }
 
 footer {
   width: 100%;
   height: auto;
   background-color: #212529;
-  padding: 20px 50px;
+  padding: 20px 40px;
   text-align: center;
 }
 
@@ -1150,6 +1154,9 @@ footer .footer-pj .fast-top a {
   .section3 .box-perguntas-single .cards-single p {
     font-size: 14.5px;
   }
+  .left-orca h2 {
+    font-size: 38px;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -1212,6 +1219,79 @@ footer .footer-pj .fast-top a {
   .main .section2 .opacity .box-diferenciais .box-check {
     font-size: 15px;
     width: 82.5%;
+  }
+  .left-orca h2 {
+    font-size: 35px;
+  }
+  .left-orca p {
+    font-size: 12px;
+  }
+  .left-orca h4 {
+    font-size: 15px;
+  }
+  .left-orca .flex-icons i {
+    color: #008ebd;
+    font-size: 25px;
+    margin: 30px 10px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+  }
+  .right-orca form span {
+    font-size: 13px;
+    color: #008ebd;
+  }
+  .right-orca form h3 {
+    font-size: 22px;
+  }
+  footer li a {
+    font-size: 14px;
+  }
+  footer ul .navfire {
+    font-size: 14px;
+  }
+  footer ul .navfire .bxs-hot {
+    font-size: 20px;
+  }
+  footer .line {
+    width: 100%;
+    height: .5px;
+    background-color: rgba(163, 163, 163, 0.38);
+    margin: 50px auto 50px auto;
+  }
+  footer .footer-pj {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .footer-pj p {
+    text-align: left;
+    color: rgba(175, 175, 175, 0.468);
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif;
+  }
+  footer .footer-pj .fast-top a .ceta {
+    color: #00a0d5;
+    font-size: 25px;
+    padding-right: 5px;
+  }
+  footer .footer-pj .fast-top a {
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: rgba(175, 175, 175, 0.587);
+    font-family: 'Mukta', sans-serif;
   }
 }
 
@@ -1292,6 +1372,71 @@ footer .footer-pj .fast-top a {
   .section3 .box-perguntas-single .cards-single p {
     font-size: 13px;
   }
+  footer {
+    padding: 20px 20px;
+    text-align: left;
+  }
+  footer img {
+    width: 150px;
+    height: 130px;
+    margin-left: -40px;
+    display: none;
+  }
+  footer nav ul {
+    display: block;
+    margin-top: -10px;
+  }
+  footer ul li {
+    margin: 20px 0;
+  }
+  footer li a {
+    font-size: 14px;
+  }
+  footer ul .navfire {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  footer ul .navfire .bxs-hot {
+    font-size: 20px;
+    margin-left: -10px;
+  }
+  footer .footer-pj {
+    display: block;
+    padding: 0 0 40px 0;
+  }
+  footer .footer-pj p {
+    text-align: left;
+    color: rgba(175, 175, 175, 0.468);
+    font-size: 14px;
+    font-family: 'Mukta', sans-serif;
+    padding-bottom: 20px;
+  }
+  footer .footer-pj .fast-top {
+    float: left;
+    font-size: 14px;
+  }
+  footer .footer-pj .fast-top a .ceta {
+    color: #00a0d5;
+    font-size: 25px;
+    padding-right: 5px;
+  }
+  footer .footer-pj .fast-top a {
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: rgba(175, 175, 175, 0.587);
+    font-family: 'Mukta', sans-serif;
+  }
 }
 
 @media screen and (max-width: 822px) {
@@ -1305,6 +1450,9 @@ footer .footer-pj .fast-top a {
   .section .quem-somos .box p {
     font-size: 13px;
     line-height: 24px;
+  }
+  .right-orca form h3 {
+    font-size: 20px;
   }
 }
 
@@ -1371,6 +1519,30 @@ footer .footer-pj .fast-top a {
   }
   .section3 .box-perguntas-single .cards-single p {
     font-size: 14.5px;
+  }
+  .background-opacity .box-flex {
+    display: block;
+  }
+  .box-flex .left-orca {
+    width: 100%;
+    height: auto;
+  }
+  .section4 .right-orca {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section4 .right-orca form {
+    width: 500px;
+    height: auto;
+    background-color: white;
+    padding: 50px;
+    margin-top: 100px;
   }
 }
 
@@ -1654,6 +1826,9 @@ footer .footer-pj .fast-top a {
   .section3 {
     padding: 100px 20px;
   }
+  .background-orca .background-opacity {
+    padding: 100px 20px;
+  }
 }
 
 @media screen and (max-width: 476px) {
@@ -1719,6 +1894,9 @@ footer .footer-pj .fast-top a {
   }
   .section3 .box-perguntas-single a {
     font-size: 12px;
+  }
+  .left-orca h2 {
+    font-size: 28px;
   }
 }
 
@@ -1799,6 +1977,19 @@ footer .footer-pj .fast-top a {
   }
   .box-perguntas h2 {
     font-size: 25px;
+  }
+  .left-orca h2 {
+    font-size: 25px;
+  }
+  .left-orca p {
+    font-size: 11px;
+  }
+  .section4 .right-orca form {
+    padding: 50px 20px;
+    margin-top: 50px;
+  }
+  .right-orca form h3 {
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=style.css.map */
