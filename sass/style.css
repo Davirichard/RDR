@@ -883,7 +883,7 @@ footer {
 }
 
 footer img {
-  width: 130px;
+  width: 150px;
   height: 130px;
 }
 
@@ -1082,8 +1082,6 @@ footer .footer-pj .fast-top a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
     -webkit-transition: -webkit-transform 0.3s ease-in;
@@ -1094,6 +1092,7 @@ footer .footer-pj .fast-top a {
   .nav-list li {
     margin-left: 0;
     opacity: 0;
+    margin: 30px 0;
   }
   .mobile-menu {
     display: block;
