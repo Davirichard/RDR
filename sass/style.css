@@ -10,6 +10,26 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6.5rem;
+  scroll-behavior: smooth;
+}
+
+/* ============ RESET SCROLLBAR ==============-- */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(---COLOR-HOVER);
+  border-radius: 20px;
+}
+
 .header {
   width: 100%;
   height: auto;
@@ -158,6 +178,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -754,7 +777,7 @@ li.slick-active button {
   width: 85%;
   font-size: 40px;
   color: white;
-  margin: 50px 0 30px 0;
+  margin: 30px 0 30px 0;
 }
 
 .left-orca h2 span {
@@ -766,7 +789,7 @@ li.slick-active button {
   color: white;
   font-size: 14px;
   line-height: 25px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-family: 'Mukta', sans-serif;
 }
 
@@ -1033,6 +1056,11 @@ footer .footer-pj .fast-top a {
 @media (max-width: 1002px) {
   body {
     overflow-x: hidden;
+  }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 7.350rem;
+    scroll-behavior: smooth;
   }
   .navbar {
     -webkit-box-orient: horizontal;
